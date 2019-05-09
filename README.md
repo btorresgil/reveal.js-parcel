@@ -28,36 +28,36 @@ There are some great attempts to modernize Reveal.js with babel and webpack. But
 
 ## Getting started
 
-Installation steps are similar to the Reveal.js Full Install steps.
+Installation steps are similar to the [Reveal.js Full Install steps](https://github.com/hakimel/reveal.js#full-setup).
 
 Step 1. Install [Node.js](https://nodejs.org) (4.0.0 or later)
 
 > I recommend to use [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm) to install Node.js.
 
-2. Clone this repository to your computer
+Step 2. Clone this repository to your computer
 
     $ git clone https://github.com/btorresgil/reveal.js-parcel.git MySlideDeck
 
-3. Navigate to the new folder containing your slides
+Step 3. Navigate to the new folder containing your slides
 
-    cd MySlideDeck
+    $ cd MySlideDeck
 
-4. Install dependencies
+Step 4. Install dependencies
 
-    npm install
+    $ npm install
 
-5. Serve the presentation and monitor source files for changes
+Step 5. Serve the presentation and monitor source files for changes
 
-    npm start
+    $ npm start
 
-6. Open http://localhost:1234 to view your presentation
+Step 6. Open http://localhost:1234 to view your presentation
 
 > You can change the port by using `npm start -- --port=1235`
 
 ## Folder structure
 
-- **index.html** Just like the index.html from Reveal.js, but simpler because the Javascript moved out
-- **src/** Javascript goes here. Also TypeScript, React, Vue, if you so choose.
+- **index.html** Just like the index.html from Reveal.js, but simpler because the Javascript moved out.
+- **src/** Your javascript goes here. Also TypeScript, React, Vue, if you so choose.
 - **src/reveal-config.js** All the initial setup and configuration for Reveal.js. Feel free to customize.
 
 ## Plugins
