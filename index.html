@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My new reveal.js slide deck</title>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>Reveal.js bundled by Parcel</section>
+        <section data-markdown>
+          <textarea data-template>
+            ## A markdown slide
+        
+            A paragraph with some text and a [link](http://hakim.se).
+          </textarea>
+        </section>
+        <section>
+          <h2>A slide with code</h2>
+          <pre><code class="hljs" data-trim data-line-numbers="4,8-11">
+              import React, { useState } from 'react';
+               
+              function Example() {
+                const [count, setCount] = useState(0);
+               
+                return (
+                  <div>
+                    <p>You clicked {count} times</p>
+                    <button onClick={() => setCount(count + 1)}>
+                      Click me
+                    </button>
+                  </div>
+                );
+              }
+          </code></pre>
+        </section>
+        <section>
+          More information at<br />
+          <a href="https://github.com/btorresgil/reveal.js-parcel">
+            https://github.com/btorresgil/reveal.js-parcel
+          </a>
+        </section>
+      </div>
+    </div>
+    <script src="./src/index.js"></script>
+    <script src="./src/reveal-config.js"></script>
+  </body>
+</html>

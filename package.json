@@ -1,0 +1,27 @@
+{
+  "name": "reveal.js-parcel",
+  "version": "1.0.0",
+  "description": "Reveal.js simplified with zero-config bundling by Parcel",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reveal.js",
+    "reveal",
+    "revealjs",
+    "parcel"
+  ],
+  "author": "Brian Torres-Gil <brian@ixi.us>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "highlight.js": "^9.15.6",
+    "highlightjs-line-numbers.js": "^2.7.0",
+    "reveal.js": "^3.8.0"
+  }
+}
